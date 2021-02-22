@@ -2,7 +2,7 @@
 var randomNumber1 = Math.floor(Math.random() * 6 + 1);
 
 var randomDice1 = "dice" + randomNumber1 + ".png"; 
-var randomDiceSource1 = "images/" + randomDice1;
+var randomDiceSource1 = randomDice1;
 
 document.querySelectorAll("img")[0].setAttribute("src", randomDiceSource1);
 
@@ -10,7 +10,7 @@ document.querySelectorAll("img")[0].setAttribute("src", randomDiceSource1);
 var randomNumber2 = Math.floor(Math.random() * 6 + 1);
 
 var randomDice2 = "dice" + randomNumber2 + ".png";
-var randomDiceSource2 = "images/" + randomDice2;
+var randomDiceSource2 = randomDice2;
 
 document.querySelectorAll("img")[1].setAttribute("src", randomDiceSource2);
 
